@@ -1,0 +1,15 @@
+.header{
+  height:32vh;
+  width:202vh;
+  background-image:url("cloudbg-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-bottom-style:solid;
+  border-color:rgb(142, 149, 177);
+}
+
+#bvlogo
+{
+  border-radius:60%;
+  padding-top: 10%;
+}

@@ -1,0 +1,46 @@
+.containerMP { 
+    background-image: linear-gradient(rgb(179, 243, 245) 10% , rgba(255, 255, 255, 0) ), url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 77.5vh;
+}
+.h1MP {
+  text-align: center;
+  color: #333;
+  position: relative;
+}
+.profile {
+  position: relative;
+  top: 10%;
+  left: 20% ;
+  width: 60%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 2%;
+}
+.labelMP {
+  font-weight: bold;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -2%;
+}
+.info span {
+  margin-bottom: 5%;
+}
+.home-buttonMP {
+    position: relative;
+    padding: 1.25%;
+    background-color: #1d498a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5%;
+}
+ 
+.home-buttonMP:hover {
+    background-color: #c4c0ec;
+    color:#1d498a;
+    /* cursor: pointer; */
+}

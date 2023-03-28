@@ -1,0 +1,102 @@
+/* for container*/
+.containerCL{
+  background-image: linear-gradient(rgb(179, 243, 245) 10% , rgba(255, 255, 255, 0) ), url("bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 77.5vh;
+}
+
+.homeButton{ 
+  display: grid;
+  place-items: center;
+  padding: 1%;
+  background-color: #255582;
+  border: none;
+  font-size: 100%;
+  border-radius: 50%;
+  /* float: right; */
+  /* margin-top: %; */
+  margin-right: 1%;
+  margin-left: 1%;
+  height: 13%;
+  width: 5%;
+  /* margin-bottom:-10%; */
+ 
+}
+
+.homeButton img{
+  height: 100%;
+  width: 100%;
+}
+
+.homeButton:hover {
+  /* color:#ffffff00; */
+  cursor: pointer;
+}
+
+/*for login box*/
+.login-boxCL {
+    width: 30%;
+    height: 60%;
+    position: relative;
+    top: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding: 2%;
+    border-radius: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* for the login text */
+  .h1CL {
+    text-align: center;
+    margin-top: -4%;
+    font-size: 200%;
+    margin-bottom: 10%;
+    color: #255582
+  }
+  
+  /* for the username and password labels */
+  .labelCL {
+    display: block;
+    font-size: 100%;
+    margin-bottom: 2%;
+    text-align: left;
+    font-size: 125%;
+    font-weight: 500;
+  }
+  
+.error{
+  margin-bottom: 1%;
+  display: flex;
+  position: relative;
+  
+}
+
+  .inputCL-UN-PW {
+    width: 100%;
+    padding: 1%;
+    margin-bottom: 2%;
+    border: solid;
+    border-width: 2px;
+    font-size: 125%;
+    border-radius: 2%;
+    box-shadow: 0 0 5% rgba(0, 0, 0, 0.2);
+  }
+  
+  .submitCL {
+    background-color: #255582;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1%;
+  }
+  
+  .submitCL:hover {
+    background-color: #0003033b;
+    color: #001c36;
+    
+  }
